@@ -107,11 +107,12 @@ class IntegrationsViewController: UITableViewController, IntegrationsProtocol {
      In this method you can see how to implement presenting Chat as tab in UITabBarController from code
      */
     func presentChatUINavigationControllerAsTabInTabBarControllerInitializatedFromCode() {
-        let chatViewController = getChatViewController()
-        let nc = UINavigationController(rootViewController: chatViewController)
+        let containerVC = ContainerVC()
+        containerVC.chatVC = getChatViewController()
+        let nc = UINavigationController(rootViewController: containerVC)
         nc.tabBarItem = UITabBarItem(title: NSLocalizedString("Chat", comment: ""), image: UIImage(named: "tabBarItemChat"), tag: 0)
         
-        let tabBarController = UITabBarController()
+        let tabBarController = ChatTabBarController()
         tabBarController.viewControllers = [nc]
         tabBarController.modalPresentationStyle = .fullScreen
         

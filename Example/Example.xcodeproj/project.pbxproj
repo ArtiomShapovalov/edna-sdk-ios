@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A60319A2AB0C9DC00DE68AF /* ChatTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6031992AB0C9DC00DE68AF /* ChatTabBarController.swift */; };
+		3A60319E2AB0D7BF00DE68AF /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A60319D2AB0D7BF00DE68AF /* ContainerVC.swift */; };
 		3AF8EEFB260249D600F631D9 /* Threads.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AF8EEF9260249D600F631D9 /* Threads.xcframework */; };
 		3AF8EEFC260249D600F631D9 /* Threads.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3AF8EEF9260249D600F631D9 /* Threads.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		79CC699F2355B5D8007A94A1 /* MainSwift.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79CC699D2355B5D8007A94A1 /* MainSwift.storyboard */; };
@@ -59,6 +61,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3A6031992AB0C9DC00DE68AF /* ChatTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTabBarController.swift; sourceTree = "<group>"; };
+		3A60319D2AB0D7BF00DE68AF /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
 		3AF8EEF9260249D600F631D9 /* Threads.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Threads.xcframework; path = ../Frameworks/Threads.xcframework; sourceTree = "<group>"; };
 		79CC69952355B5D8007A94A1 /* ExampleSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79CC699E2355B5D8007A94A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainSwift.storyboard; sourceTree = "<group>"; };
@@ -237,6 +241,8 @@
 				AAA0F23524910CF70070A902 /* ChatInTabNavigationController.swift */,
 				AAA0F22B24910CF70070A902 /* IntegrationsViewController.swift */,
 				AAA0F22A24910CF70070A902 /* IntegrationsViewController+UITableViewDelegate.swift */,
+				3A6031992AB0C9DC00DE68AF /* ChatTabBarController.swift */,
+				3A60319D2AB0D7BF00DE68AF /* ContainerVC.swift */,
 			);
 			path = Integration;
 			sourceTree = "<group>";
@@ -384,6 +390,7 @@
 				AAA0F20F24910C7F0070A902 /* ClientComposerVC.swift in Sources */,
 				AAC185AE2477F14300B99057 /* ClientsViewController.swift in Sources */,
 				AAA0F22624910CBB0070A902 /* UIColor+RGB.swift in Sources */,
+				3A60319A2AB0C9DC00DE68AF /* ChatTabBarController.swift in Sources */,
 				AAA0F20E24910C7F0070A902 /* Client.swift in Sources */,
 				AAA0F22724910CBB0070A902 /* CustomStringConvertible+Mirror.swift in Sources */,
 				AAA0F23F24910CF70070A902 /* ChatInTabNavigationController.swift in Sources */,
@@ -391,6 +398,7 @@
 				AAA0F21524910C8F0070A902 /* Storage.swift in Sources */,
 				AAA0F22424910CBB0070A902 /* Mirror+Optional.swift in Sources */,
 				AAA0F21924910C9B0070A902 /* ClientsDataSource.swift in Sources */,
+				3A60319E2AB0D7BF00DE68AF /* ContainerVC.swift in Sources */,
 				AAA0F22824910CBB0070A902 /* String+Description.swift in Sources */,
 				AAA0F23D24910CF70070A902 /* SendTextViewController.swift in Sources */,
 				AAA0F23E24910CF70070A902 /* AppDelegate.swift in Sources */,
