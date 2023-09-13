@@ -35,7 +35,7 @@ class ContainerVC: UIViewController {
                 equalTo: view.trailingAnchor
             ),
             chatVC.view.bottomAnchor.constraint(
-                equalTo: view.bottomAnchor,
+                equalTo: view.safeAreaLayoutGuide.bottomAnchor,
                 constant: -magicOffset
             )
         ])
